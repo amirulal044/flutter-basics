@@ -1,0 +1,175 @@
+<!-- 1. Bagaimana cara membuat project Flutter menggunakan terminal/cmd?
+Untuk membuat proyek Flutter baru menggunakan terminal atau command prompt, Anda dapat mengikuti langkah-langkah berikut:
+
+1. Buka terminal atau command prompt.
+2. Jalankan perintah berikut untuk      membuat proyek Flutter baru:
+    flutter create nama_proyek
+3. Setelah itu, masuk ke folder proyek yang telah dibuat:
+cd nama_proyek -->
+
+
+
+<!-- 2. Apa aturan dalam memberikan nama project pada Flutter?
+Nama proyek Flutter harus mengikuti aturan berikut:
+
+1. Nama proyek hanya boleh menggunakan huruf kecil, angka, dan garis bawah (_).
+2. Nama proyek tidak boleh mengandung spasi atau karakter khusus lainnya.
+3. Contoh nama yang benar: my_flutter_app, flutter_project1. -->
+
+
+
+<!-- 3. Apa saja folder yang secara khusus disiapkan oleh Flutter untuk menjalankan aplikasi pada platform tertentu?
+Folder-folder yang disiapkan Flutter untuk menjalankan aplikasi pada platform tertentu adalah:
+
+1. android: Menyimpan file konfigurasi dan kode untuk platform Android.
+2. ios: Menyimpan file konfigurasi dan kode untuk platform iOS.
+3. web: Menyimpan file untuk platform web (jika menggunakan Flutter untuk web).
+4. windows, macos, linux: Jika Anda mengembangkan aplikasi desktop, masing-masing folder ini akan berisi file spesifik untuk platform tersebut. -->
+
+
+
+<!-- 4. Apa fungsi dari folder .dart_tools dan .idea?
+1. .dart_tools: Folder ini digunakan oleh Dart untuk menyimpan data terkait dengan proyek dan konfigurasi yang digunakan selama pengembangan aplikasi.
+2. .idea: Folder ini adalah konfigurasi khusus yang digunakan oleh IDE seperti IntelliJ IDEA atau Android Studio. Biasanya berisi pengaturan proyek yang disimpan oleh IDE tersebut. -->
+
+
+<!-- 5. Bagaimana cara membuka project Flutter menggunakan Visual Studio Code?
+Untuk membuka proyek Flutter menggunakan Visual Studio Code:
+
+1. Pastikan Anda telah menginstall Visual Studio Code.
+2. Buka Visual Studio Code.
+3. Pilih "File" > "Open Folder".
+4. Pilih folder proyek Flutter Anda.
+5. Jika plugin Flutter belum terpasang, Visual Studio Code akan memberi tahu Anda untuk menginstal plugin tersebut. -->
+
+
+<!--6. . Mengapa kita perlu memastikan Android SDK terinstall untuk menjalankan aplikasi Flutter di sistem operasi Android?
+Android SDK diperlukan untuk mengembangkan aplikasi Android. SDK menyediakan alat yang diperlukan untuk membuat, menguji, dan menjalankan aplikasi Android pada perangkat Android, baik itu perangkat fisik atau emulator. Tanpa SDK ini, Flutter tidak bisa membangun atau menjalankan aplikasi untuk platform Android.  -->
+
+
+
+<!-- 7. Apa langkah-langkah untuk mengatasi masalah "Android Toolchain error" pada perintah flutter doctor?
+Untuk mengatasi "Android Toolchain error", Anda bisa mengikuti langkah-langkah berikut:
+
+1. Pastikan Android SDK sudah terpasang dengan benar.
+2. Pastikan Anda telah mengonfigurasi Android SDK pada path lingkungan sistem.
+3. Cek apakah Anda sudah menginstall Android Studio dan mengikuti langkah-langkah setup yang ada.
+4. Jalankan perintah flutter doctor untuk memeriksa kesalahan lebih lanjut dan lakukan perbaikan sesuai petunjuk yang muncul. -->
+
+
+<!-- 8. Bagaimana cara menambahkan Android SDK Command-line tools melalui Android Studio?
+Untuk menambahkan Android SDK Command-line tools melalui Android Studio:
+
+1. Buka Android Studio.
+2. Pilih "Preferences" (untuk macOS) atau "Settings" (untuk Windows/Linux).
+3. Pilih "Appearance & Behavior" > "System Settings" > "Android SDK".
+4. Di tab SDK Tools, centang "Android SDK Command-line Tools".
+5. Klik "Apply" untuk menginstall tools tersebut. -->
+
+
+
+<!-- 9. Apa fungsi dari file .gitignore dalam struktur folder Flutter?
+File .gitignore berfungsi untuk mengatur file dan folder apa saja yang tidak perlu diikutkan dalam versi kontrol (Git). Biasanya file ini mencakup file build, file sementara, dan file konfigurasi yang spesifik untuk pengaturan lokal, seperti *.log, *.class, dan folder build/. -->
+
+
+
+<!-- 10. Mengapa file pubspec.yaml sangat penting dalam pengembangan aplikasi Flutter?
+File pubspec.yaml adalah file konfigurasi utama dalam proyek Flutter yang mengelola dependensi aplikasi (seperti paket-paket Dart dan Flutter yang digunakan), metadata proyek, aset, dan konfigurasi lainnya. Tanpa file ini, aplikasi Flutter tidak akan mengetahui dependensi dan pengaturan lainnya yang diperlukan untuk menjalankan proyek. -->
+
+
+
+<!-- 11. Apa yang dimaksud dengan widget dalam konteks Flutter?
+Dalam Flutter, widget adalah elemen dasar dalam pembangunan UI. Setiap bagian dari antarmuka pengguna, mulai dari tombol, teks, gambar, hingga struktur layar, semuanya adalah widget. Flutter menggunakan pendekatan berbasis widget untuk membangun UI secara deklaratif. -->
+
+
+<!-- 12. Bagaimana pewarisan (inheritance) digunakan dalam pembuatan widget Flutter?
+Pewarisan dalam Flutter digunakan untuk membuat widget turunan dari widget dasar, memungkinkan widget untuk mewarisi sifat atau perilaku tertentu. Misalnya, widget StatelessWidget dan StatefulWidget adalah turunan dari widget dasar Widget, dan mereka mengimplementasikan metode dan fungsi khusus yang dibutuhkan dalam pengembangan aplikasi. -->
+
+
+
+<!-- 13. Apa peran widget MaterialApp dalam pembuatan aplikasi Flutter?
+Widget MaterialApp adalah widget pembungkus yang menyediakan struktur dasar untuk aplikasi Flutter. Ini mengonfigurasi tema aplikasi, navigasi, dan juga memberikan berbagai fitur UI berdasarkan prinsip desain Material. Semua aplikasi Flutter umumnya dimulai dengan widget MaterialApp. -->
+
+
+
+<!-- 14. Mengapa kita membutuhkan fungsi runApp untuk menjalankan aplikasi Flutter?
+Fungsi runApp digunakan untuk menjalankan aplikasi Flutter dengan menempatkan widget pertama (root widget) dalam hirarki widget. Ini memberitahu Flutter untuk membangun dan menampilkan antarmuka pengguna yang didefinisikan oleh widget tersebut. -->
+
+
+<!-- 15. Apa kegunaan widget Scaffold dalam struktur aplikasi Flutter?
+Widget Scaffold adalah struktur dasar yang digunakan untuk membuat layout aplikasi dengan berbagai elemen seperti app bar, body, drawer, floating action button, dan lain-lain. Ini menyediakan kerangka kerja dasar untuk aplikasi dengan komponen UI yang sering digunakan. -->
+
+
+
+<!-- 16. Bagaimana cara menambahkan app bar dan body pada widget Scaffold?
+Untuk menambahkan app bar dan body pada Scaffold, Anda bisa menggunakan properti appBar dan body seperti contoh berikut:
+
+
+Scaffold(
+  appBar: AppBar(
+    title: Text('Judul Aplikasi'),
+  ),
+  body: Center(
+    child: Text('Ini adalah konten aplikasi'),
+  ),
+);
+ -->
+
+
+ <!-- 17. Apa perbedaan antara Stateless Widget dan Stateful Widget?
+1. StatelessWidget: Widget ini tidak memiliki status internal yang dapat berubah setelah widget dibangun. Widget ini tetap statis sepanjang siklus hidupnya.
+2. StatefulWidget: Widget ini memiliki status internal yang dapat berubah selama siklus hidup widget. Ketika status berubah, widget akan dibangun kembali. -->
+
+
+<!-- 18. Mengapa Stateful Widget disebut memiliki state internal?
+StatefulWidget memiliki objek State yang menyimpan status yang dapat berubah. Ketika status berubah, widget akan diperbarui dan tampilan akan direbuild, memungkinkan aplikasi untuk merespon perubahan data atau interaksi pengguna. -->
+
+
+
+<!-- 19. Berikan contoh penggunaan Stateless Widget dalam pembuatan aplikasi Flutter.
+Contoh penggunaan StatelessWidget:
+
+class HelloWorld extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Text('Hello, World!'),
+    );
+  }
+}
+
+Widget ini akan selalu menampilkan "Hello, World!" dan tidak berubah. -->
+
+
+<!-- 20. Berikan contoh penggunaan Stateful Widget dalam pembuatan aplikasi Flutter beserta alasan penggunaannya.
+Contoh penggunaan StatefulWidget:
+
+
+class CounterApp extends StatefulWidget {
+  @override
+  _CounterAppState createState() => _CounterAppState();
+}
+
+class _CounterAppState extends State<CounterApp> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    setState(() {
+      _counter++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: <Widget>[
+        Text('Counter: $_counter'),
+        ElevatedButton(
+          onPressed: _incrementCounter,
+          child: Text('Increment'),
+        ),
+      ],
+    );
+  }
+}
+StatefulWidget digunakan di sini karena aplikasi harus merespons interaksi pengguna dengan memperbarui status (_counter) dan memperbarui tampilan UI.-->
